@@ -11,4 +11,5 @@ including ranges and comma separated lists, into a list of UIDs.</p>
 <p>1) count_domai.py for the Q1</p> 
 <p>2) jaccard.py for the Q2</p>
 <p>3) and parse_imap.py for the Q3</p>
-<FONT COLOR="#FF0000">This is font color red</FONT>
+
+Good Luck
