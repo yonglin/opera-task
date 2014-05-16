@@ -3,6 +3,7 @@ def get_top10_domain(filename):
 		email addresses'''
 
 	import re
+	from collections import Counter
 
 	def top10_domains(count_dict):
 		'''return us the top-10 domains'''
@@ -32,6 +33,12 @@ def get_top10_domain(filename):
 
 		for domain in domain_list:
 			count_dict[domain] += 1
+
+		return count_dict
+
+	def count_domains_new(domain_list):
+		'''we can use the Counter from the collections to simplfy our coding'''
+		count_dict = Counter(domain_list)
 
 		return count_dict
 
